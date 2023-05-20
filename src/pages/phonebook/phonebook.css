@@ -1,0 +1,16 @@
+.phonebook-container {
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts-form-container {
+  flex-basis: 50%;
+}
+
+.contacts-container {
+  flex-basis: 40%;
+  padding-top: 7px;
+}

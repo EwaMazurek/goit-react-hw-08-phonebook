@@ -11,10 +11,10 @@ export const Form = () => {
     event.preventDefault();
     const form = event.target;
     const name = form.elements.name.value;
-    const phone = form.elements.number.value;
+    const number = form.elements.number.value;
     if (contacts.some(contact => contact.name === name)) {
       window.alert(`${name} is already on the list`);
-    } else dispatch(addContact({ name, phone }));
+    } else dispatch(addContact({ name, number }));
     form.reset();
   };
 

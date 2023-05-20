@@ -1,7 +1,9 @@
 .container {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .button {
-  margin: 10px 0;
+  margin: 5px 0;
 }

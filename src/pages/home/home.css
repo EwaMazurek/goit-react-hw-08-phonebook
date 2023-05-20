@@ -1,0 +1,39 @@
+.home-container {
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.home-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  color: white;
+}
+
+.home-buttons {
+  margin-top: 40px;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.home-button-separator {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
